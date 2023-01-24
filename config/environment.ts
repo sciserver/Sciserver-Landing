@@ -1,8 +1,5 @@
-// Map env variables and set defaults using the || operator in case no env variable is found
-
-let loginPortalUrl = '';
-let graphqlUrl = '';
-let baseUrl = '';
+const graphqlUrl = '';
+const baseUrl = '';
 
 export const env = {
   GRAPHQL_BASE_URL: graphqlUrl,
